@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-image: url("background_for_website.jpg");
+	background-attachment: scroll;
+	background-color: black;
+		;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: Courier New;
+  font-size: 40px;
+}
+h3{
+	color: aliceblue;
+	text-align: center;
+	font-family:Brush Script MT;
+	font-size: 30px
+}
+
+ul{
+	margin:auto; 
+	color: aliceblue;
+	float: left;
+}
+li{
+	font-size: 12px
+	
+}
+h2{
+	
+	text-decoration: underline;
+	color: #C8FFFA ;
+}
+.collapse{
+  cursor: pointer;
+  display: block;
+  background: none;
+  
+}
+.collapse + input{
+  display: none; /* hide the checkboxes */
+}
+.collapse + input + div{
+  display:none;
+}
+.collapse + input:checked + div{
+  display:block;
+}	
+
+
